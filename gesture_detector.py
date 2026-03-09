@@ -37,7 +37,7 @@ from collections import deque
 from hand_tracker import HandResult
 import config
 
-
+# feature: gesture erase detection
 # ── Tuning ────────────────────────────────────────────────────────────────────
 DEBOUNCE_FRAMES   = 4     # frames a gesture must hold before committing
                            # PAUSE always commits instantly
@@ -386,3 +386,4 @@ class GestureDetector:
             # "raw_gesture": raw_gesture,
             # "raw_score":   raw_score,
         }
+    
